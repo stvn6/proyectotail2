@@ -3,16 +3,16 @@ export default function Nav() {
     return (
         <nav>
             <ul className="flex">
-                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
+                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-teal-200 hover:outline-0 hover:no-underline hover:bg-none">
                     <Link to="/">Home</Link>
                 </li>
-                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
+                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-teal-200 hover:outline-0 hover:no-underline hover:bg-none">
                     <Link to="/about">About</Link>
                 </li>
-                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
+                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-teal-200 hover:outline-0 hover:no-underline hover:bg-none">
                     <Link to="/contact">Contact</Link>
                 </li>
-                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
+                <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-white transition duration-300 ease-linear hover:text-teal-200 hover:outline-0 hover:no-underline hover:bg-none">
                     <Link to="/products">Productos</Link>
                 </li>
             </ul>
