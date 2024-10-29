@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'ola-bg': "url('./src/components/Image/olaa.jpg')"      }
+        'banner-bg': "url('/public/image/banner.jpg')"      }
     },
   },
   plugins: [],

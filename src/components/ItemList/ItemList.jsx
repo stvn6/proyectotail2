@@ -2,15 +2,22 @@ import Items from "../Item/Items"
 import { getProducts } from "../../data/asyncMock"
 import { useEffect, useState } from "react"
 import Loading from "../Loading/Loading.jsx";
-export default function ItemList(){
-    const [products, setProducts] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect (() => {
-        getProducts().then((data) =>{
-            setProducts(data);
+
+export default function ItemList({products: initialProducts}){
+    const [products, setProducts] = useState(initialProducts || []);
+    const [loading, setLoading] = useState(initialProducts);
+
+    useEffect(() => {
+        if(!initialProducts) {
+            getProducts().then((data) =>{
+                setProducts(data)
+                setLoading(false)
+            });
+        }else{
             setLoading(false)
-        });
-    }, []);
+        }
+    }, [initialProducts]);
+
 
     return(
         <>
@@ -19,7 +26,7 @@ export default function ItemList(){
                     <Loading />
                 </div>
             ):(
-                <div className="flex flex-wrap justify-center items-center w-full mx-auto">
+                <div className="flex flex-wrap">
                     {products.map((prod) =>(
                         <Items {...prod} key={prod.id}/>
                     ))}
