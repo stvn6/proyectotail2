@@ -45,34 +45,39 @@ export default function ItemDetail() {
                     <img src={product.img} alt="Imagen del producto" className="w-full rounded-[20px]" />
                 </div>
                 <div>
-                    <h1 className="text-[10px] font-medium uppercase">{product.name}</h1>
-                    <p className="text-[40px] my-[20px]">{product.description}</p>
-                    <p>Price: ${product.price}</p>
-                    <p>Stock: {product.stock}</p>
-
+                    <p className="text-[10px]">{product.description}</p>
+                    <h1 className="text-[40px] font-medium uppercase">{product.name}</h1>
+                    <p>${product.price} CLP</p>
                     <div>
-                        <h3>Tallas disponibles:</h3>
+                        <h3>Tamaños disponibles:</h3>
                         <button>
-                        <ul className='flex '>
-                            {product.sizes.map((size, index) => (
-                                <li key={index} className='text-[15px] my-[20px] border-[1px] w-[50px] flex justify-center mx-[10px]'>{size}</li>
-                            ))}
-                        </ul>
+                            <ul className='flex '>
+                                {product.sizes.map((size, index) => (
+                                    <li key={index}
+                                        className='text-[15px] my-[20px] border-[1px] w-[50px] flex justify-center mx-[10px]'>{size}</li>
+                                ))}
+                            </ul>
                         </button>
                     </div>
                     <p className='text-[20px] my-[20px]'>Stock: {product.stock}</p>
 
                     <div className='flex m-1.5'>
-                        <button onClick={decrementQuantity} className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> - </button>
+                        <button onClick={decrementQuantity}
+                                className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> -
+                        </button>
                         <p className='text-[20px] px-[10px]'>{quantity}</p>
-                        <button onClick={incrementQuantity} className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> + </button>
+                        <button onClick={incrementQuantity}
+                                className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> +
+                        </button>
                     </div>
 
                     <p className='text-[20px] my-[20px]'>Precio: ${product.price} CLP por unidad</p>
 
                     <p className='text-[20px] my-[20px]'>Precio Total: ${precioTotal} CLP</p>
 
-                    <button className='bg-[#171e27] text-[#ffffff] text-[20px] px-[20px] py-[5px] hover:bg-[#172625]'>Comprar</button>
+                    <button
+                        className='bg-[#171e27] text-[#ffffff] text-[20px] px-[20px] py-[5px] hover:bg-[#172625]'>Comprar
+                    </button>
 
                 </div>
             </div>

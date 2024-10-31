@@ -1,67 +1,67 @@
 export const products = [
 {
     id: 1,
-    name: 'Juan Valdez',
+    name: 'Liofilizado Tradicional',
     price: '10000',
-    description: 'Cafe sabor Chocolate',
+    description: 'Juan Valdez',
     stock: 5,
-    img: 'https://jumbo.vtexassets.com/arquivos/ids/311068/Principal-5144.jpg?v=637025995573070000',
+    img: 'https://www.juanvaldez.cl/cdn/shop/files/LiofilizadoTradicional95gr.jpg?v=1720100898&width=713',
     category: 'liofilizado',
-    sizes: ['190gr', '95gr']
+    sizes: ['95gr']
 },
     {
         id: 2,
-        name: 'Juan Valdez',
+        name: 'Liofilizado Avellana',
         price: '10000',
-        description: "Cafe sabor Avellana",
+        description: "Juan Valdez",
         stock: 5,
-        img: 'https://www.prisa.cl/media/cache/attachment/filter/product_gallery_main/b6b1adc76b36bd6a7f81344215e93277/63921/66180ac9e566e812298492.jpg',
+        img: 'https://www.juanvaldez.cl/cdn/shop/files/LiofilizadoAvellana95gr.jpg?v=1720100885&width=713',
         category: 'liofilizado',
-        sizes: ['190gr', '95gr']
+        sizes: ['95gr']
     },
 
     {
         id: 3,
-        name: 'Juan Valdez',
-        price: '10000',
-        description: 'Café Volcan 250 g',
+        name: 'Liofilizado Descafeinado',
+        price: '11200',
+        description: 'Juan Valdez',
         stock: 5,
-        img: 'https://http2.mlstatic.com/D_NQ_NP_730607-MLC76444209589_052024-O.webp',
+        img: 'https://www.juanvaldez.cl/cdn/shop/files/LiofilizadoTradicionalDescafeinado95gr.jpg?v=1720100893',
         category: 'liofilizado',
-        sizes: ['190gr', '95gr']
+        sizes: ['95gr']
 
     },
     {
         id: 4,
-        name: 'Juan Valdez',
-        price: '10000',
-        description: 'Café Volcán 454 g',
+        name: 'Café Volcán',
+        price: '11200',
+        description: 'Juan Valdez',
         stock: 5,
-        img: 'https://www.juanvaldez.cl/cdn/shop/files/CafeVolcan250gr.jpg?v=1720100955',
+        img: 'https://www.juanvaldez.cl/cdn/shop/files/Volcan250molido.jpg?v=1725380514',
         category: 'grano',
         sizes: ['250gr']
 
     },
     {
         id: 5,
-        name: 'Juan Valdez',
-        price: '10000',
-        description: 'Café Colina 454 g',
+        name: 'Café Colina',
+        price: '11200',
+        description: 'Juan Valdez',
         stock: 5,
-        img: 'https://www.juanvaldez.cl/cdn/shop/files/EmpacadoColina454gr.jpg?v=1720100942',
+        img: 'https://www.juanvaldez.cl/cdn/shop/files/CafeColina250gr.jpg?v=1720100952',
         category: 'grano',
-        sizes: ['454gr']
+        sizes: ['250gr']
 
     },
     {
         id: 6,
-        name: 'Juan Valdez',
-        price: '10000',
-        description: 'Café Cumbre 454 g',
+        name: 'Café Cumbre',
+        price: '11200',
+        description: 'Juan Valdez',
         stock: 5,
-        img: 'https://www.juanvaldez.cl/cdn/shop/files/EmpacadoColina454gr.jpg?v=1720100942',
+        img: 'https://www.juanvaldez.cl/cdn/shop/files/CafeCumbre250gr.jpg?v=1720100949',
         category: 'grano',
-        sizes: ['454gr']
+        sizes: ['250gr']
 
     }
 ]
