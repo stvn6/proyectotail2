@@ -61,13 +61,13 @@ export default function ItemDetail() {
                     </div>
                     <p className='text-[20px] my-[20px]'>Stock: {product.stock}</p>
 
-                    <div className='flex m-1.5'>
+                    <div className='inline-flex items-center border border-brown-700 rounded-md shadow-md'>
                         <button onClick={decrementQuantity}
-                                className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> -
+                            className=' rounded-l-md hover:bg-brown-600 w-[60px] h-[60px] text-[24px] flex justify-center items-center transition duration-200'> -
                         </button>
-                        <p className='text-[20px] px-[10px]'>{quantity}</p>
+                        <p className='text-[24px] px-[15px] text-center'>{quantity}</p>
                         <button onClick={incrementQuantity}
-                                className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> +
+                            className='rounded-r-md hover:bg-brown-600 w-[60px] h-[60px] text-[24px] flex justify-center items-center transition duration-200'> +
                         </button>
                     </div>
 
