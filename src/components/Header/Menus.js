@@ -1,7 +1,8 @@
 export const Products = [
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
+    {name : "Grano", link: "/category/grano"},
+    {name : "Molido", link: "/category/molido"},
+    {name : "Liofilizado/Solubre", link: "/category/liofilizado"},
+    {name : "Consumo Individual", link: "/category/capsula"},
 ];
 export const Resources = [
     {name : "TEXTO", link: "#"},
