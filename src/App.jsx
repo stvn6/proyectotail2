@@ -17,7 +17,9 @@ function App() {
     return (
         <>
         <BrowserRouter>
+            <section>
             <Header/>
+            </section>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path='/about' element={<About />} />

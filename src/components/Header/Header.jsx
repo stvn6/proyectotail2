@@ -9,7 +9,7 @@ const Header = () => {
 
     let [open, setOpen] = useState(false);
     return (
-        <div className='shadow-md w-full pt-0 fixed top-0 left-0'>
+        <div className='shadow-md w-full pt-0 fixed position-fixed z-10 top-0 left-0'>
             <div className='md:flex items-center justify-between bg-[#592507] py-4 md:px-10 px-7'>
                 <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
                 <Link to="/" className="text-3xl text-white mr-1 pt-2">
