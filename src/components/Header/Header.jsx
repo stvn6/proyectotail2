@@ -24,14 +24,6 @@ const Header = () => {
                         <Nav>
                         </Nav>
                     </div>
-                    <SearchB />
-                    <Button>
-                        SIGN IN
-                    </Button>
-                    <Button>
-                        SIGN UP
-                    </Button>
-
                 </ul>
             </div>
 

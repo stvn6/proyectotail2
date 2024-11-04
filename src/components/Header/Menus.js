@@ -11,17 +11,8 @@ export const Resources = [
     {name : "TEXTO", link: "#"},
     {name : "TEXTO", link: "#"},
 ];
-export const Company = [
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-];
 export const Support = [
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
-    {name : "TEXTO", link: "#"},
+    {name : "Instagram", link: "https://www.instagram.com/juanvaldezcafe/"},
+    {name : "Facebook", link: "https://www.facebook.com/JuanValdezCafeChile/?locale=es_LA"},
+    {name : "Linkedin", link: "https://cl.linkedin.com/company/juanvaldezcaf%C3%A9chile"},
 ];
