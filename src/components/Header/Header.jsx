@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Button from  "../Button/Button.jsx"
 import SearchB from "../SearchB/SearchB.jsx"
 import Nav from '../Nav/Nav.jsx';
 import {Link} from "react-router-dom";
@@ -25,12 +24,6 @@ const Header = () => {
                         </Nav>
                     </div>
                     <SearchB />
-                    <Button>
-                        SIGN IN
-                    </Button>
-                    <Button>
-                        SIGN UP
-                    </Button>
                 </ul>
             </div>
 
