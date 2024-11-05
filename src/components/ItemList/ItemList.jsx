@@ -25,7 +25,7 @@ export default function ItemList({ products: initialProducts }){
                     <Loading />
                 </div>
             ):(
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-3 mt-[20px]">
                     {products.map((prod) =>(
                         <Items {...prod} key={prod.id}/>
                     ))}

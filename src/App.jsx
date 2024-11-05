@@ -17,7 +17,7 @@ function App() {
     return (
         <>
         <BrowserRouter>
-            <section>
+            <section className="h-[80px]">
             <Header/>
             </section>
             <Routes>
