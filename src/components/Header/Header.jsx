@@ -3,18 +3,18 @@ import Button from  "../Button/Button.jsx"
 import SearchB from "../SearchB/SearchB.jsx"
 import Nav from '../Nav/Nav.jsx';
 import {Link} from "react-router-dom";
-import Logo from "../Logo/Logo.jsx";
 
+const Logo = './logojv.webp'
 const Header = () => {
 
     let [open, setOpen] = useState(false);
     return (
         <div className='shadow-md w-full pt-0 fixed position-fixed z-10 top-0 left-0'>
-            <div className='md:flex items-center justify-between bg-[#592507] py-4 md:px-10 px-7'>
+            <div className='md:flex items-center justify-between bg-[#723604] py-4 md:px-10 px-7'>
                 <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
-                <Link to="/" className="text-3xl text-white mr-1 pt-2">
-                        <Logo></Logo>
-                </Link>
+                    <Link to="/" className="text-3xl text-white mr-1 pt-2">
+                        <img src={Logo} alt="Logo" className="w-10 h-8" />
+                    </Link>
                 </div>
                 <div onClick={()=>setOpen(!open)} className="text-3xl absolute text-white right-8 top-6 cursor-pointer md:hidden">
                     <ion-icon name={open ? "close-outline":"menu-outline"}></ion-icon>
@@ -24,6 +24,13 @@ const Header = () => {
                         <Nav>
                         </Nav>
                     </div>
+                    <SearchB />
+                    <Button>
+                        SIGN IN
+                    </Button>
+                    <Button>
+                        SIGN UP
+                    </Button>
                 </ul>
             </div>
 
